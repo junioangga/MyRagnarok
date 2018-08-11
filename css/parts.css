@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face { font-family: KaushanScript; src:url(KaushanScript-Regular.otf); } 
+@font-face { font-family: lato; src:url(Lato-LightItalic.ttf) } 
+.image001{
+	display:block;
+	margin:auto;
+	opacity:0;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+	transition:all ease-in-out 1s;
+}
+.image002{
+	float:left;
+	opacity:0;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+	transition:all ease-in-out 1s;
+}
+.image003{
+	margin-top:44px;
+}
+.image004,
+.image006{
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+	transition:all ease-in-out 1s;
+}
+.image006{
+	margin-left:90px;
+}
+.frame001{
+	position:absolute;
+	left:238px;
+	top:250px;
+	transform: rotate(5deg);
+}
+.query001{
+	opacity:1 !important;
+	margin-left:100px;
+}
+.query002{
+	opacity:1 !important;
+}
+.query003{
+	opacity:1 !important;
+	padding-left:80px !important;
+}
+.query004{
+	opacity:1 !important;
+	padding-left:90px !important;
+}
+.query005{
+	opacity:1 !important;
+	margin-left:0px !important;
+}
+.query006{
+	opacity:1 !important;
+	padding-top:100px !important;
+}
+.float001{
+	float:left;
+}
+.float002{
+	float:right;
+}
+.clone001{
+	position:fixed;
+	top:0;
+	opacity:0;
+	z-index:3000;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+	transition:all ease-in-out 1s;
+}
+#wrap #wrapInner #mainArea .column005 .content001 .text001{
+	padding-top:0px;
+	opacity:0;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+	transition:all ease-in-out 1s;
+}
+/* ------------------------------------------------------------------awas slider panas -------------------------------------------------------------------------------------------------------*/
+.bannerBlockA01{
+	position:relative;
+	width:100%;
+	height:500px;
+	background:#FFFFFF;
+	margin:0;
+	padding:0;
+}
+.wrapSliderBlockA01{
+	width:100%;
+	height:auto;
+	margin:20px auto 0 auto;
+	padding:0;
+}
+.wrapSliderBlockA01:hover #prev,
+.wrapSliderBlockA01:hover #next{
+	opacity:1;
+}
+.bannerBlockB01{
+	width:100%;
+	height:500px;
+}
+#prev{
+	position:absolute;
+	top:45%;
+	left:0px;
+	z-index:99;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:top right;
+	opacity:0;
+	cursor:pointer;
+}
+#next{
+	position:absolute;
+	top:45%;
+	right:0px;
+	z-index:99;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-position:top left;
+	opacity:0;
+	cursor:pointer;
+}
+.sliderBlockB01,
+.sliderBlockB02,
+.sliderBlockB03,
+.sliderBlockB04,
+.sliderBlockB05{
+	position:absolute;
+	z-index:90;
+	width:auto;
+	height:auto;
+}
+.sliderBlockA01{
+	width:100%;
+	height:500px;
+}
